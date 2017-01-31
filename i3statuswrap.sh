@@ -4,6 +4,6 @@
 i3status | while :
 do
 	read line
-	song="$(python2 /home/gian/Scripts/song.py)"
+	song="$(python2 ../song.py)"
 	echo "$song | $line" || exit 1
 done
